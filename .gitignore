@@ -1,0 +1,32 @@
+# 🏮 Otto-Task: Shadow Architect - GitIgnore
+
+# Dependencias (Nunca subas esto, es muy pesado)
+node_modules/
+dist/
+build/
+.cache/
+
+# Seguridad y Secretos (CRUCIAL para no ser hackeado)
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+.well-known/
+
+# Archivos de Sistema y Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+
+# Configuración de Editores
+.vscode/
+.idea/
+*.swp
+*.bak
+
+# Temporales de Bun/Hono
+.wrangler/
+.turbo/
