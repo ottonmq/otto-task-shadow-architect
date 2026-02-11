@@ -1,0 +1,31 @@
+clear
+# 💎 ESTRUCTURA CYBERPUNK - STATUS BOX BLINKING
+echo -e "\e[1;36m"
+echo "╔═════════════════════════════════════════════════════╗" | pv -qL 100
+echo "║  [██████████] 100% COMPLETE                         ║" | pv -qL 100
+echo "║  🚀 PROJECT: OTTO-TASK (SHADOW ARCHITECT)           ║" | pv -qL 100
+echo "║  🏗️  POWERED BY: OTTONMQ                            ║" | pv -qL 100
+echo "║  👤 DEVELOPER: OTTO NAPOLEON MENDOZA QUANT          ║" | pv -qL 100
+echo "║  🌐 STATUS: OPERATIONAL / NEON SCANNER ACTIVE       ║" | pv -qL 100
+echo "╚═════════════════════════════════════════════════════╝" | pv -qL 100
+echo -e "\e[0m"
+sleep 1
+
+# --- SCANNER DE DOCUMENTACIÓN ---
+for f in *.md; do
+    echo -e "\n\e[1;33m[⚡] SCANNING CORE RESOURCE: $f\e[0m" | pv -qL 100
+    echo "-----------------------------------------------------"
+    # VELOCIDAD DEL TEXTO: Cambia el 150 para ir más rápido o lento
+    cat "$f" | pv -qL 150
+    echo "-----------------------------------------------------"
+    sleep 2
+done
+
+# --- INYECCIÓN DE LOGS (PURO DARK WEB STYLE) ---
+echo -e "\n\e[1;32m[📡] INJECTING SYSTEM LOGS FROM GITLAB...\e[0m" | pv -qL 100
+echo "-----------------------------------------------------"
+# VELOCIDAD DE LOS LOGS: Aquí es donde controlás el flujo
+cat *.log 2>/dev/null | pv -qL 200
+echo "-----------------------------------------------------"
+
+echo -e "\n\e[1;36m[✅] MISSION ACCOMPLISHED. SYSTEM SECURE.\e[0m" | pv -qL 100

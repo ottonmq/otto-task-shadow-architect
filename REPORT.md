@@ -1,4 +1,4 @@
-🏮 Otto-Task: Shadow Architect - Project Report
+🏮 Otto-Task: Shadow Architect - Project Report ottonmq
 ​🚀 Overview
 ​Otto-task is an autonomous AI Agent built on the GitLab Duo Agent Platform. It acts as a "Shadow Architect," intercepting the development lifecycle to automate the most tedious and risk-prone tasks: security patching, documentation, and deployment orchestration.
 ​🛠️ Technical Architecture
@@ -26,5 +26,3 @@
 ​Enable GitLab Duo Duo Enterprise.
 ​Add the otto-task-agent.json configuration to your .gitlab/agents/ directory.
 ​Run a git push to trigger the Shadow Architect scanning.
-​Dmfhdilyd, con este reporte ya tenés la base sólida para que el jurado entienda tu visión.
-​¿Querés que ahora te ayude a crear el archivo otto-task-agent.json para que el agente tenga sus primeras instrucciones reales de "limpieza" de código? 🚀⚡

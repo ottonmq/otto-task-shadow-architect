@@ -1,8 +1,5 @@
 # 🏮 Otto-Task: Shadow Architect AI
 
-<p align="center">
-  <img src="https://tu-imagen-del-logo-aqui.png" width="300" alt="Otto-Task Logo">
-</p>
 
 > **STATUS:** [ SEARCHING_FOR_VULNERABILITIES... ] 🟢
 > **SYSTEM:** [ AI_ORCHESTRATOR_ACTIVE ]
@@ -46,7 +43,7 @@
 
 ---
 
-<p align="center">
+
   Developed by **Dmfhdilyd** for the **GitLab AI Hackathon 2026**. 
   *"The code writes itself, the Architect orchestrates the future."*
-</p>
+
